@@ -18,7 +18,7 @@ Python standard library only. No network. MIT.
 
 ## Bench
 
-`data/kansuji_guard_bench_v1.jsonl` has 126 cases: 48 to convert, 69 to keep (places, names, companies, words, idioms) and 9 ambiguous spans to leave alone. Scoring is exact match of the whole output.
+`data/kansuji_guard_bench_v1.jsonl` has 126 cases: 48 to convert, 69 to keep (places, names, companies, words, idioms) and 9 ambiguous spans to leave alone. Scoring is exact match of the whole output. The cases were written for this repository by its authors (no third-party text) and are released under the same MIT license.
 
 | Converter | Score | Convert | Keep | Ambiguous |
 |---|---|---|---|---|
