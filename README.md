@@ -1,6 +1,6 @@
 # JP Kansuji Guard
 
-<!-- mcp-name: io.github.ayatrader/jp-kansuji-guard -->
+<!-- mcp-name: io.github.japan-ai-tools/jp-kansuji-guard -->
 
 **Turn kanji numerals in Japanese text into digits (`三億五千万円` → `350000000円`) without breaking names, places and idioms (`一宮市`, `五十嵐`, `三菱`, `一石二鳥` stay as they are).**
 
