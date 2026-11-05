@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "jp-kansuji-guard"
-version = "0.1.0"
+version = "0.1.1"
 description = "Convert Japanese kanji numerals to digits without breaking names, places or idioms."
 readme = "README.md"
 license = { text = "MIT" }
@@ -23,8 +23,8 @@ dependencies = []
 jp-kansuji-guard = "kansujiguard.server:main"
 
 [project.urls]
-Homepage = "https://github.com/ayatrader/jp-kansuji-guard"
-Source = "https://github.com/ayatrader/jp-kansuji-guard"
+Homepage = "https://github.com/japan-ai-tools/jp-kansuji-guard"
+Source = "https://github.com/japan-ai-tools/jp-kansuji-guard"
 
 [tool.setuptools]
 packages = ["kansujiguard"]
