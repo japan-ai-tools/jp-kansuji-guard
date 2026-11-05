@@ -1,11 +1,11 @@
 Metadata-Version: 2.4
 Name: jp-kansuji-guard
-Version: 0.1.0
+Version: 0.1.1
 Summary: Convert Japanese kanji numerals to digits without breaking names, places or idioms.
 Author: NEXUS tools
 License: MIT
-Project-URL: Homepage, https://github.com/ayatrader/jp-kansuji-guard
-Project-URL: Source, https://github.com/ayatrader/jp-kansuji-guard
+Project-URL: Homepage, https://github.com/japan-ai-tools/jp-kansuji-guard
+Project-URL: Source, https://github.com/japan-ai-tools/jp-kansuji-guard
 Keywords: mcp,mcp-server,japanese,ai-agents
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Programming Language :: Python :: 3
@@ -18,7 +18,7 @@ Dynamic: license-file
 
 # JP Kansuji Guard
 
-<!-- mcp-name: io.github.ayatrader/jp-kansuji-guard -->
+<!-- mcp-name: io.github.japan-ai-tools/jp-kansuji-guard -->
 
 **Turn kanji numerals in Japanese text into digits (`三億五千万円` → `350000000円`) without breaking names, places and idioms (`一宮市`, `五十嵐`, `三菱`, `一石二鳥` stay as they are).**
 
@@ -36,7 +36,7 @@ Python standard library only. No network. MIT.
 
 ## Bench
 
-`data/kansuji_guard_bench_v1.jsonl` has 126 cases: 48 to convert, 69 to keep (places, names, companies, words, idioms) and 9 ambiguous spans to leave alone. Scoring is exact match of the whole output.
+`data/kansuji_guard_bench_v1.jsonl` has 126 cases: 48 to convert, 69 to keep (places, names, companies, words, idioms) and 9 ambiguous spans to leave alone. Scoring is exact match of the whole output. The cases were written for this repository by its authors (no third-party text) and are released under the same MIT license.
 
 | Converter | Score | Convert | Keep | Ambiguous |
 |---|---|---|---|---|
