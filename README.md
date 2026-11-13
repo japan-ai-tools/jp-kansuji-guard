@@ -61,6 +61,9 @@ parse_number("1億2,300万")
 
 Both tools are read-only.
 
+MCP protocol: the stdio server speaks both the classic `initialize` flow (2025-06-18 and earlier) and the stateless 2026-07-28 revision (`server/discover`, per-request `_meta`). Tested in `tests/test_mcp_2026.py`.
+MCP の新しい版(2026-07-28・server/discover)と従来の initialize の両方で動きます。
+
 ## Limits
 
 - The word list is hand-written. Names and places not on it can still be converted when a counter follows them
